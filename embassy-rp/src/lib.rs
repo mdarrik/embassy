@@ -29,8 +29,8 @@ pub mod spi;
 #[cfg(feature = "time-driver")]
 pub mod timer;
 pub mod uart;
-#[cfg(feature = "nightly")]
-pub mod usb;
+// #[cfg(feature = "nightly")]
+// pub mod usb;
 
 pub mod clocks;
 pub mod flash;
@@ -108,7 +108,7 @@ embassy_hal_common::peripherals! {
     DMA_CH10,
     DMA_CH11,
 
-    USB,
+    // USB,
 
     RTC,
 
