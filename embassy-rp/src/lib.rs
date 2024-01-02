@@ -32,7 +32,7 @@ pub mod spi;
 #[cfg(feature = "time-driver")]
 pub mod time_driver;
 pub mod uart;
-pub mod usb;
+//pub mod usb;
 pub mod watchdog;
 
 // PIO
@@ -192,7 +192,7 @@ embassy_hal_internal::peripherals! {
     PWM_CH6,
     PWM_CH7,
 
-    USB,
+    // USB,
 
     RTC,
 
